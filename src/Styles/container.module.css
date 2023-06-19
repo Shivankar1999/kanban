@@ -1,0 +1,15 @@
+.Main_Container {
+  box-shadow: 0px 0px 4px 2px #000000bb;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+/* Navbar Styling */
+
+/* Main Data Styling */
+
+/* Slide Bar Styling */
