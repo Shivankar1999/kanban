@@ -2,9 +2,5 @@
   padding: 0;
   box-sizing: border-box;
   margin: 0;
-}
-body {
-  /* position: relative; */
-  /* overflow: hidden; */
-  background-color: transparent;
+  font-size: 2em;
 }

@@ -5,19 +5,12 @@ import img2 from '../IMG/img7.jpg';
 import img3 from '../IMG/img5.png';
 const TodoList = ({ todo }) => {
   console.log(todo);
-  const dragStarted = (e, id) => {
-    console.log('Drag has Started');
-    e.dataTransfer.setData('todoId', id);
-  };
+
   return (
     <>
       <div className={styles.todowrap}>
         {todo.map((ele) => (
-          <div
-            draggable
-            onDragStart={(e) => dragStarted(e, ele.id)}
-            className={styles.todolistC}
-          >
+          <div draggable className={styles.todolistC}>
             <div className={styles.todoleft}>
               <button>{ele.tag}</button>
               <p>...</p>

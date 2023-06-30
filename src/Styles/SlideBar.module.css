@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   text-decoration: none;
+  /* font-size: small34; */
 }
 body {
   position: relative;
@@ -13,11 +14,12 @@ body {
   left: 0;
   background-color: #fff;
   color: black;
-  height: auto;
+  height: 99.1%;
   max-width: 250px;
   transition: all 0.5s;
   /* border-right: 1px solid black; */
   box-shadow: 0px 0px 4px 2px #333;
+  border-bottom-right-radius: 15px;
 }
 
 .top_section {
